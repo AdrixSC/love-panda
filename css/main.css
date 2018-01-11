@@ -1,6 +1,44 @@
-.header {
-    background-color: pink;
+body {
+  background-color: #f78e69;
+}
+
+.color-verde {
+  background-color: #abe188;
+}
+
+.container-fluid {
+  margin: 0;
+}
+
+header {
+    background-color: #f78e69;
     color: white;
     padding: 10px;
     height: 100px;
+
+}
+
+header > div > h5 {
+  font-size: 40px;
+}
+
+#panda-1 {
+  background-image: url("../assets/images/uno.jpg");
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#panda-2 {
+  background-image: url("../assets/images/dos.jpg");
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#panda-3 {
+  background-image: url("../assets/images/tres.jpg");
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
